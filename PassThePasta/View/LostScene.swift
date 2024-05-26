@@ -9,7 +9,53 @@ import SwiftUI
 
 struct LostScene: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ZStack {
+                LinearGradient(
+                    gradient: Gradient(colors: [.tealBackground, .blueBackground]),
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+                .ignoresSafeArea()
+
+                Image("LOST_SCENE_PNG")
+                    .resizable()
+                    .ignoresSafeArea()
+
+                VStack {
+                    Spacer()
+
+                    HStack {
+                        NavigationLink(destination: MainGameplay()) {
+                            Text("Play Again")
+                                .font(.custom("ARCO", size: 40))
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(Color("YellowTextColor"))
+                                .frame(maxWidth: .infinity, maxHeight: 50)
+                                .padding(36)
+                                .background(Color.white)
+                                .cornerRadius(24)
+                        }
+
+                        Spacer()
+
+                        NavigationLink(destination: StartPage()) {
+                            Text("Back to START")
+                                .font(.custom("ARCO", size: 40))
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(Color("YellowTextColor"))
+                                .frame(maxWidth: .infinity, maxHeight: 50)
+                                .padding(36)
+                                .background(Color("BlueTextColor"))
+                                .cornerRadius(24)
+                        }
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 30)
+                }
+            }
+            .navigationBarBackButtonHidden(true)
+        }
     }
 }
 

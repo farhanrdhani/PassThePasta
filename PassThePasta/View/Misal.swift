@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct Misal: View {
+    @State var countdownDone:Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if countdownDone {
+            GameplayView()
+        } else {
+            Countdown()
+            .onAppear{
+                Task {
+                    try? await Task.sleep(for: .seconds(3))
+                    countdownDone = true
+                }
+            }
+        }
     }
 }
 

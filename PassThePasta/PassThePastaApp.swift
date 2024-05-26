@@ -11,7 +11,7 @@ import SwiftUI
 struct PassThePastaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartPage()
         }
     }
 }

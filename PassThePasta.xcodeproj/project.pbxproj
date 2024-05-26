@@ -7,18 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B344CBBF2BFF786000C38241 /* patsSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B344CBBE2BFF786000C38241 /* patsSound.wav */; };
+		B344CBC12BFF786C00C38241 /* chefSpatSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B344CBC02BFF786C00C38241 /* chefSpatSound.wav */; };
+		B344CBC52BFFA06900C38241 /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344CBC42BFFA06900C38241 /* WinScene.swift */; };
+		B36859FD2BF8BAB30076986F /* arco.otf in Resources */ = {isa = PBXBuildFile; fileRef = B36859FC2BF8BAB30076986F /* arco.otf */; };
+		B3685A002BF8BFF60076986F /* IntroConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36859FF2BF8BFF60076986F /* IntroConversation.swift */; };
+		B3685A022BF8C61E0076986F /* TypingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3685A012BF8C61E0076986F /* TypingTextView.swift */; };
+		B3685A042BFAF0200076986F /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3685A032BFAF0200076986F /* BeaconManager.swift */; };
+		B3685A262BFB1CD90076986F /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3685A252BFB1CD90076986F /* MotionManager.swift */; };
+		B38FB2D02BFC75850043060B /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FB2CF2BFC75850043060B /* MusicManager.swift */; };
+		B38FB2D32BFC7F500043060B /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B38FB2D22BFC7F500043060B /* backgroundMusic.mp3 */; };
+		B38FB2D52BFC8DD60043060B /* tutorialMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B38FB2D42BFC8DD60043060B /* tutorialMusic.mp3 */; };
+		B38FB2D72BFC95E10043060B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FB2D62BFC95E10043060B /* SoundManager.swift */; };
+		B38FB2DF2BFDF67E0043060B /* LostScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FB2DE2BFDF67E0043060B /* LostScene.swift */; };
+		B38FB2E12BFDF9F30043060B /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FB2E02BFDF9F30043060B /* Countdown.swift */; };
+		B38FB2E32BFDFA230043060B /* Misal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FB2E22BFDFA230043060B /* Misal.swift */; };
+		B38FB2E52BFE0A060043060B /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FB2E42BFE0A060043060B /* TutorialView.swift */; };
+		B38FB2E72BFF50C00043060B /* MainGameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FB2E62BFF50C00043060B /* MainGameplay.swift */; };
+		B3D357142BF7B56600460C8A /* TutorialStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D357132BF7B56600460C8A /* TutorialStoryView.swift */; };
+		B3D3571A2BF7C18200460C8A /* GameplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D357192BF7C18200460C8A /* GameplayView.swift */; };
+		B3D3571E2BF8B4DD00460C8A /* comfortaa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3D3571D2BF8B4DD00460C8A /* comfortaa.ttf */; };
+		B3D357212BF8B80600460C8A /* ARCO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3D357202BF8B80600460C8A /* ARCO.ttf */; };
 		B3F63E282BF7A20900B242F6 /* PassThePastaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63E272BF7A20900B242F6 /* PassThePastaApp.swift */; };
 		B3F63E2A2BF7A20900B242F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63E292BF7A20900B242F6 /* ContentView.swift */; };
 		B3F63E2C2BF7A20A00B242F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F63E2B2BF7A20A00B242F6 /* Assets.xcassets */; };
 		B3F63E2F2BF7A20A00B242F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F63E2E2BF7A20A00B242F6 /* Preview Assets.xcassets */; };
+		B3F63E372BF7AFED00B242F6 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F63E362BF7AFED00B242F6 /* StartPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B344CBBE2BFF786000C38241 /* patsSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = patsSound.wav; sourceTree = "<group>"; };
+		B344CBC02BFF786C00C38241 /* chefSpatSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chefSpatSound.wav; sourceTree = "<group>"; };
+		B344CBC42BFFA06900C38241 /* WinScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
+		B36859FC2BF8BAB30076986F /* arco.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = arco.otf; path = ../../../../../Downloads/arco/arco.otf; sourceTree = "<group>"; };
+		B36859FF2BF8BFF60076986F /* IntroConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroConversation.swift; sourceTree = "<group>"; };
+		B3685A012BF8C61E0076986F /* TypingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextView.swift; sourceTree = "<group>"; };
+		B3685A032BFAF0200076986F /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		B3685A252BFB1CD90076986F /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		B38FB2CF2BFC75850043060B /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		B38FB2D22BFC7F500043060B /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backgroundMusic.mp3; path = ../../../../../Downloads/backgroundMusic.mp3; sourceTree = "<group>"; };
+		B38FB2D42BFC8DD60043060B /* tutorialMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tutorialMusic.mp3; path = ../../../../../Downloads/tutorialMusic.mp3; sourceTree = "<group>"; };
+		B38FB2D62BFC95E10043060B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		B38FB2DE2BFDF67E0043060B /* LostScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostScene.swift; sourceTree = "<group>"; };
+		B38FB2E02BFDF9F30043060B /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		B38FB2E22BFDFA230043060B /* Misal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misal.swift; sourceTree = "<group>"; };
+		B38FB2E42BFE0A060043060B /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		B38FB2E62BFF50C00043060B /* MainGameplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameplay.swift; sourceTree = "<group>"; };
+		B3D357132BF7B56600460C8A /* TutorialStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialStoryView.swift; sourceTree = "<group>"; };
+		B3D357192BF7C18200460C8A /* GameplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayView.swift; sourceTree = "<group>"; };
+		B3D3571D2BF8B4DD00460C8A /* comfortaa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = comfortaa.ttf; path = ../../../../../Downloads/Comfortaa/comfortaa.ttf; sourceTree = "<group>"; };
+		B3D3571F2BF8B4EF00460C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3D357202BF8B80600460C8A /* ARCO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ARCO.ttf; path = ../../../../../Downloads/arco/ARCO.ttf; sourceTree = "<group>"; };
 		B3F63E242BF7A20900B242F6 /* PassThePasta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassThePasta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F63E272BF7A20900B242F6 /* PassThePastaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThePastaApp.swift; sourceTree = "<group>"; };
 		B3F63E292BF7A20900B242F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3F63E2B2BF7A20A00B242F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F63E2E2BF7A20A00B242F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3F63E362BF7AFED00B242F6 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +77,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B36859FE2BF8BFCE0076986F /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				B36859FF2BF8BFF60076986F /* IntroConversation.swift */,
+				B3685A012BF8C61E0076986F /* TypingTextView.swift */,
+				B3685A032BFAF0200076986F /* BeaconManager.swift */,
+				B3685A252BFB1CD90076986F /* MotionManager.swift */,
+				B38FB2CF2BFC75850043060B /* MusicManager.swift */,
+				B38FB2D62BFC95E10043060B /* SoundManager.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		B38FB2D12BFC7F350043060B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				B38FB2D22BFC7F500043060B /* backgroundMusic.mp3 */,
+				B38FB2D42BFC8DD60043060B /* tutorialMusic.mp3 */,
+				B344CBBE2BFF786000C38241 /* patsSound.wav */,
+				B344CBC02BFF786C00C38241 /* chefSpatSound.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		B3D3571C2BF8B4C500460C8A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B3D3571D2BF8B4DD00460C8A /* comfortaa.ttf */,
+				B3D357202BF8B80600460C8A /* ARCO.ttf */,
+				B36859FC2BF8BAB30076986F /* arco.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		B3F63E1B2BF7A20900B242F6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +130,13 @@
 		B3F63E262BF7A20900B242F6 /* PassThePasta */ = {
 			isa = PBXGroup;
 			children = (
+				B38FB2D12BFC7F350043060B /* Music */,
+				B36859FE2BF8BFCE0076986F /* Struct */,
+				B3D3571F2BF8B4EF00460C8A /* Info.plist */,
+				B3D3571C2BF8B4C500460C8A /* Font */,
 				B3F63E272BF7A20900B242F6 /* PassThePastaApp.swift */,
 				B3F63E292BF7A20900B242F6 /* ContentView.swift */,
+				B3F63E352BF7AFB500B242F6 /* View */,
 				B3F63E2B2BF7A20A00B242F6 /* Assets.xcassets */,
 				B3F63E2D2BF7A20A00B242F6 /* Preview Content */,
 			);
@@ -65,6 +149,22 @@
 				B3F63E2E2BF7A20A00B242F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3F63E352BF7AFB500B242F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3F63E362BF7AFED00B242F6 /* StartPage.swift */,
+				B3D357132BF7B56600460C8A /* TutorialStoryView.swift */,
+				B3D357192BF7C18200460C8A /* GameplayView.swift */,
+				B38FB2DE2BFDF67E0043060B /* LostScene.swift */,
+				B38FB2E02BFDF9F30043060B /* Countdown.swift */,
+				B38FB2E22BFDFA230043060B /* Misal.swift */,
+				B38FB2E42BFE0A060043060B /* TutorialView.swift */,
+				B38FB2E62BFF50C00043060B /* MainGameplay.swift */,
+				B344CBC42BFFA06900C38241 /* WinScene.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +225,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B344CBC12BFF786C00C38241 /* chefSpatSound.wav in Resources */,
 				B3F63E2F2BF7A20A00B242F6 /* Preview Assets.xcassets in Resources */,
+				B3D357212BF8B80600460C8A /* ARCO.ttf in Resources */,
+				B344CBBF2BFF786000C38241 /* patsSound.wav in Resources */,
+				B38FB2D52BFC8DD60043060B /* tutorialMusic.mp3 in Resources */,
+				B3D3571E2BF8B4DD00460C8A /* comfortaa.ttf in Resources */,
+				B36859FD2BF8BAB30076986F /* arco.otf in Resources */,
+				B38FB2D32BFC7F500043060B /* backgroundMusic.mp3 in Resources */,
 				B3F63E2C2BF7A20A00B242F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +245,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F63E2A2BF7A20900B242F6 /* ContentView.swift in Sources */,
+				B3685A042BFAF0200076986F /* BeaconManager.swift in Sources */,
+				B38FB2E72BFF50C00043060B /* MainGameplay.swift in Sources */,
+				B38FB2E32BFDFA230043060B /* Misal.swift in Sources */,
+				B3D3571A2BF7C18200460C8A /* GameplayView.swift in Sources */,
+				B3F63E372BF7AFED00B242F6 /* StartPage.swift in Sources */,
+				B3685A262BFB1CD90076986F /* MotionManager.swift in Sources */,
+				B344CBC52BFFA06900C38241 /* WinScene.swift in Sources */,
+				B38FB2E12BFDF9F30043060B /* Countdown.swift in Sources */,
+				B3685A002BF8BFF60076986F /* IntroConversation.swift in Sources */,
+				B38FB2E52BFE0A060043060B /* TutorialView.swift in Sources */,
+				B3D357142BF7B56600460C8A /* TutorialStoryView.swift in Sources */,
+				B3685A022BF8C61E0076986F /* TypingTextView.swift in Sources */,
 				B3F63E282BF7A20900B242F6 /* PassThePastaApp.swift in Sources */,
+				B38FB2D72BFC95E10043060B /* SoundManager.swift in Sources */,
+				B38FB2DF2BFDF67E0043060B /* LostScene.swift in Sources */,
+				B38FB2D02BFC75850043060B /* MusicManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +397,15 @@
 				DEVELOPMENT_TEAM = HM8U4G6N9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassThePasta/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +413,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ApDev.PassThePasta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +432,15 @@
 				DEVELOPMENT_TEAM = HM8U4G6N9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassThePasta/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your app needs access to your location to provide personalized services when the app is in use.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +448,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ApDev.PassThePasta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

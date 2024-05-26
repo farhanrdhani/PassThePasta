@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct IntroConversation{
+    let name: String
+    let text: String
+}
