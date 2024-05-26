@@ -9,14 +9,45 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        ZStack {
+            LinearGradient(
+                gradient: Gradient(colors: [.tealBackground, .blueBackground]),
+                startPoint: .top,
+                endPoint: .bottom
+            )
+            
+            Image("MAINBACK_PTP")
+                .resizable()
+            
+            
+            Image("PINTU_PTP")
+                .resizable()
+                .scaledToFit()
+            
+            HStack {
+                Image("LOGO_PASSTHEPASTA")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: UIScreen.main.bounds.height*2/3)
+                    .padding()
+                
+                Image("BUTTON_START_PASSTHEPASTA")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: UIScreen.main.bounds.height/6)
+                    .padding()
+                
+            }
+            
+
+                
         }
-        .padding()
+        .ignoresSafeArea()
+        
     }
+    
+            
 }
 
 #Preview {

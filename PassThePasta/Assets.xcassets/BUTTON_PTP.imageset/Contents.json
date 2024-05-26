@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "BUTTON_PTP.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

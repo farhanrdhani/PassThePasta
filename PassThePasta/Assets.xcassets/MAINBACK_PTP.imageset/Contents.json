@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "MAINBACK_PTP.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
